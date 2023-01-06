@@ -311,6 +311,9 @@ function App() {
           <Contact />
         </div>
       </div>
+      <footer>
+        <p>Copyright&copy; 2023. All Rights Reserved by Ripion Chakma</p>
+      </footer>
     </div>
   );
 }

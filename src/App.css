@@ -253,6 +253,14 @@ a {
   display: none;
 }
 
+footer {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--primary-app-color);
+  margin-bottom: 15px;
+  margin-top: -30px;
+}
+
 /* the mobile view style */
 @media all and (max-width: 786px) {
   .navbar-option-mobile {
