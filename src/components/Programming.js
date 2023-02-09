@@ -4,28 +4,28 @@ import "../components/programmings.css";
 export const Programming = () => {
   const values = [
     {
-      text: "JavaScript",
+      text: "HTML",
       percentage: 80,
     },
     {
-      text: "JavaScript",
-      percentage: 80,
+      text: "CSS",
+      percentage: 60,
     },
     {
       text: "JavaScript",
-      percentage: 80,
+      percentage: 70,
     },
     {
-      text: "JavaScript",
-      percentage: 80,
+      text: "React",
+      percentage: 65,
     },
     {
-      text: "JavaScript",
-      percentage: 80,
+      text: "Nodejs",
+      percentage: 50,
     },
     {
-      text: "JavaScript",
-      percentage: 80,
+      text: "MongoDB",
+      percentage: 70,
     },
   ];
   return (

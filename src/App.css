@@ -3,10 +3,10 @@
 :root {
   --primary-app-color: #02203c;
   --secondary-app-color: #001528;
+
   --standout-color: #fffb00;
 }
-.App {
-}
+
 a {
   text-decoration: none !important;
 }
@@ -25,6 +25,7 @@ a {
 
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 51% 100%, 0% 75%, 0 0);
 }
+
 .px-10 {
   padding-inline: 90px;
 }

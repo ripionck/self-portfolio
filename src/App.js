@@ -48,8 +48,9 @@ function App() {
     SetAllFalse();
     function1(state1);
   }
+
   return (
-    <div className="App">
+    <>
       <div className="navbar-option-mobile bg-new">
         <div className="d-flex flex-row justify-content-between">
           <span className="brand-name d-flex align-items-center justify-content-center">
@@ -73,6 +74,7 @@ function App() {
         }
       >
         <span className="brand-name">CREATIVE WORLD</span>
+
         <div className="d-flex flex-rows">
           <a
             href="#home"
@@ -185,10 +187,17 @@ function App() {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
               <span className="some-text-about-me">
-                Full Stack web developer with background knowledge in MERN stack
-                with redux, along with a knack of building applications with
-                utmost efficient. Strong professional BSC willing to be an asset
-                for an organization.
+                As a fresher web developer, I am eager to apply my knowledge of
+                HTML, CSS, and JavaScript to real-world projects. I have a
+                strong foundation in web development fundamentals and I am
+                constantly seeking to improve my skills through online
+                tutorials, coursework, and personal projects. I am a fast
+                learner and I have an eye for detail, which enables me to create
+                visually appealing and user-friendly websites. I am also a team
+                player and I enjoy working collaboratively with others to find
+                creative solutions to complex problems. I am confident that I
+                can make a valuable contribution to any web development team and
+                I am eager to prove myself in a professional setting.
               </span>
               <span className="few-highlights">
                 <span className="few-text">Here are few highlights</span>
@@ -314,7 +323,7 @@ function App() {
       <footer>
         <p>Copyright&copy; 2023. All Rights Reserved by Ripion Chakma</p>
       </footer>
-    </div>
+    </>
   );
 }
 
